@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350454182C05905D00E0164F /* BarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350454172C05905D00E0164F /* BarData.swift */; };
 		3537F0F32BEC853B0049EA77 /* Bar_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537F0F22BEC853B0049EA77 /* Bar_AppApp.swift */; };
 		3537F0F52BEC853B0049EA77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537F0F42BEC853B0049EA77 /* ContentView.swift */; };
 		3537F0F72BEC853E0049EA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3537F0F62BEC853E0049EA77 /* Assets.xcassets */; };
 		3537F0FA2BEC853E0049EA77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3537F0F92BEC853E0049EA77 /* Preview Assets.xcassets */; };
+		3537F1012BED94DF0049EA77 /* BarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537F1002BED94DF0049EA77 /* BarModel.swift */; };
+		3537F1032BF197310049EA77 /* AddDrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537F1022BF197310049EA77 /* AddDrinksView.swift */; };
+		35DC3F472C0ECAA0008D2DD4 /* BarOwnerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC3F462C0ECAA0008D2DD4 /* BarOwnerMenu.swift */; };
+		35F6CE862C0BC75B00E1A1FC /* storesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6CE852C0BC75B00E1A1FC /* storesData.swift */; };
+		35F6CE882C0EA55700E1A1FC /* BarOwnerBarFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6CE872C0EA55700E1A1FC /* BarOwnerBarFind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350454172C05905D00E0164F /* BarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarData.swift; sourceTree = "<group>"; };
 		3537F0EF2BEC853B0049EA77 /* Bar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3537F0F22BEC853B0049EA77 /* Bar_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar_AppApp.swift; sourceTree = "<group>"; };
 		3537F0F42BEC853B0049EA77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3537F0F62BEC853E0049EA77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3537F0F92BEC853E0049EA77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3537F1002BED94DF0049EA77 /* BarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarModel.swift; sourceTree = "<group>"; };
+		3537F1022BF197310049EA77 /* AddDrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinksView.swift; sourceTree = "<group>"; };
+		35DC3F462C0ECAA0008D2DD4 /* BarOwnerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarOwnerMenu.swift; sourceTree = "<group>"; };
+		35F6CE852C0BC75B00E1A1FC /* storesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storesData.swift; sourceTree = "<group>"; };
+		35F6CE872C0EA55700E1A1FC /* BarOwnerBarFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarOwnerBarFind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,10 @@
 		3537F0E62BEC853B0049EA77 = {
 			isa = PBXGroup;
 			children = (
+				35DC3F462C0ECAA0008D2DD4 /* BarOwnerMenu.swift */,
+				35F6CE872C0EA55700E1A1FC /* BarOwnerBarFind.swift */,
+				35F6CE852C0BC75B00E1A1FC /* storesData.swift */,
+				350454172C05905D00E0164F /* BarData.swift */,
 				3537F0F12BEC853B0049EA77 /* Bar App */,
 				3537F0F02BEC853B0049EA77 /* Products */,
 			);
@@ -53,6 +69,8 @@
 			children = (
 				3537F0F22BEC853B0049EA77 /* Bar_AppApp.swift */,
 				3537F0F42BEC853B0049EA77 /* ContentView.swift */,
+				3537F1022BF197310049EA77 /* AddDrinksView.swift */,
+				3537F1002BED94DF0049EA77 /* BarModel.swift */,
 				3537F0F62BEC853E0049EA77 /* Assets.xcassets */,
 				3537F0F82BEC853E0049EA77 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350454182C05905D00E0164F /* BarData.swift in Sources */,
+				3537F1012BED94DF0049EA77 /* BarModel.swift in Sources */,
+				35DC3F472C0ECAA0008D2DD4 /* BarOwnerMenu.swift in Sources */,
+				35F6CE882C0EA55700E1A1FC /* BarOwnerBarFind.swift in Sources */,
+				3537F1032BF197310049EA77 /* AddDrinksView.swift in Sources */,
 				3537F0F52BEC853B0049EA77 /* ContentView.swift in Sources */,
 				3537F0F32BEC853B0049EA77 /* Bar_AppApp.swift in Sources */,
+				35F6CE862C0BC75B00E1A1FC /* storesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
